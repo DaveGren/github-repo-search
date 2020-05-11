@@ -1,4 +1,4 @@
-##GitHub Repo Search
+## GitHub Repo Search
 
 Simple app basend on vanila JS and Ajax for searching GitHub repos.
 
