@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <title>Search GitHub Repo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input 
+                class="search-input"
+                onkeyup="searchForPhrase()"
+                placeholder="Szukaj"
+                type="text"
+            >
+            <button id="search-button">
+                Wyszukaj
+            </button>
+        </div>
+    
+        <table class="list-container elevation-shadow">
+        </table>
+    </div>
+    
+    <script 
+        type="text/javascript" 
+        src="script/script.js"
+    ></script>
+</body>
+</html>
